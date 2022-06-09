@@ -1,0 +1,36 @@
+{
+  "name": "skytacts-api",
+  "version": "1.0.0",
+  "description": "open api for skytacts app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.test.js",
+    "api": "nodemon src/api.js",
+    "cloud": "nodemon src/cloud-api.js",
+    "web": "nodemon src/web-api.js"
+  },
+  "author": "republichenko",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.28.5",
+    "base-x": "^4.0.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.3.0",
+    "nodejs-nodemailer-outlook": "^1.2.4",
+    "superagent": "^7.1.3",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15",
+    "sequence-maker": "^0.0.9",
+    "supertest": "^6.2.3"
+  }
+}
