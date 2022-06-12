@@ -59,6 +59,4 @@ app.use('/api', graphqlHTTP((req, res) => {
 }));
 
 //try  listening
-app.listen(port, () => {
-	console.log(`good at http://localhost:${port}/api`);
-});
+module.exports = app;

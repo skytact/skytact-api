@@ -90,6 +90,4 @@ app.post('/load', async (req, res) => {
 });
 
 //try  listening
-app.listen(port, () => {
-	console.log(`good at http://localhost:${port}/`);
-});
+module.exports = app;
