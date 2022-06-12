@@ -10,7 +10,7 @@
 - static ip and Domain name
 
 # setup guide:
-`sh
+```
 # create new dir
 mkdir skytact_server
 cd skytact_server
@@ -49,7 +49,7 @@ node api-server.js --staging
 
 node api-server.js
 # node cloud-server.js
-`
+```
 
 # develop (testing) ports:
 4747 (dev api)
@@ -60,12 +60,12 @@ node api-server.js
 2728 (cloud api)
 
 # use pm2 to enable services
-`sh
+```
 
 pm2 start api-server.js
 pm2 start cloud-server.js
 
 pm2 list
-`
+```
 
 # Good luck!
